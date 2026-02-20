@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chatwithpdf_using_rag"
+version = "0.1.0"
+description = "Chat with PDF using Retrieval-Augmented Generation (RAG)"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain-community = "0.4.1"
+pypdf = "6.7.1"
+
+[tool.poetry.group.dev.dependencies]
+# add dev deps here, e.g. pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
