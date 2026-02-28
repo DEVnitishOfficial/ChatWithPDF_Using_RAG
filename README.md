@@ -2,7 +2,8 @@
 
 * Installed qdrant vector db using the docker
 * see the docker file that how we installed it.
-* always run you docker engine first to use it.
+* always run you docker engine first to use the quadrant vector db and run the below command from parent folder wherever is you docker compose file.
+* ```docker-compose up -d```
 * if you qdrant is up and running check it on localhost:6333 that must appear.
 
 * -qU flag meaning:
